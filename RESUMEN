@@ -1,0 +1,14 @@
+required es la palabra en html para que el campo sea obligatorio para el usuario
+
+para un email debemos colocar en text type email
+
+para passwor debemos cambiar a type password y colocar minlength y maxlength para dejar un rango
+
+para la contraseña si queremos manejar un patron https://stackoverflow.com/questions/19605150/regex-for-password-must-contain-at-least-eight-characters-at-least-one-number-a
+
+la primera es aceptacion de letras minusculas, las letras mayusculas y los numeros ?=. la ultima no se acepta esos simbolos para la contraseña, por ultimo de 6 a 12 establecemos el limite
+pattern="^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?!.*[ !@#$%^*_=+-]).{6,12}$
+
+operaciones con fechas https://www.w3schools.com/jsref/jsref_utc.asp
+
+pattern="\d{10}" siginifica que solo lee numeros y que son maximo y minimo 10 que recibe
